@@ -81,11 +81,11 @@ def assistant(command):
 			mail.ehlo()
 			# encrypt sessions
 			mail.starttls()
-			username = shoaibmaster1@gmail.com
-			password = shoaibking
+			username = ""
+			password = ""
 			mail.login(username, password)
 			# send message
-			recipient_email = "shokhan768@gmail.com"
+			recipient_email = ""
 			mail.sendmail(recipient, recipient_email, content)
 			# close connection
 			mail.close()
